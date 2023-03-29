@@ -13,7 +13,7 @@ gem 'bundler-checksum', '~> 0.1.0', path: 'vendor/gems/bundler-checksum', requir
 # NOTE: When incrementing the major or minor version here, also increment activerecord_version
 # in vendor/gems/attr_encrypted/attr_encrypted.gemspec until we resolve
 # https://gitlab.com/gitlab-org/gitlab/-/issues/375713
-gem 'rails', '~> 6.1.6.1'
+gem 'rails', '~> 6.1.7.3'
 
 gem 'bootsnap', '~> 1.15.0', require: false
 
@@ -340,7 +340,7 @@ gem 'thrift', '>= 0.16.0'
 gem 'ruby_parser', '~> 3.15', require: false
 gem 'rails-i18n', '~> 7.0'
 gem 'gettext_i18n_rails', '~> 1.8.0'
-gem 'gettext_i18n_rails_js', '~> 1.3'
+gem 'gettext_i18n_rails_js', '~> 1.3', '>= 1.3.0'
 gem 'gettext', '~> 3.3', require: false, group: :development
 
 gem 'batch-loader', '~> 2.0.1'
