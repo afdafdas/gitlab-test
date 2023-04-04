@@ -4,5 +4,5 @@ source 'https://rubygems.org'
 gemspec
 
 group :example do
-  gem 'sinatra'
+  gem 'sinatra', '>= 2.2.3'
 end
