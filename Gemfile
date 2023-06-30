@@ -211,7 +211,7 @@ group :puma do
 end
 
 # State machine
-gem 'state_machines-activerecord', '~> 0.8.0'
+gem 'state_machines-activerecord', '~> 0.9.0'
 
 # CI domain tags
 gem 'acts-as-taggable-on', '~> 9.0'
