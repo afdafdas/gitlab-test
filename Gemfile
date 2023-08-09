@@ -126,7 +126,7 @@ gem 'grape-swagger-entity', '~> 0.5.1', group: [:development, :test]
 gem 'graphql', '~> 1.13.12'
 gem 'graphiql-rails', '~> 1.8'
 gem 'apollo_upload_server', '~> 2.1.0'
-gem 'graphql-docs', '~> 2.1.0', group: [:development, :test]
+gem 'graphql-docs', '~> 3.0.0', group: [:development, :test]
 gem 'graphlient', '~> 0.5.0' # Used by BulkImport feature (group::import)
 
 gem 'hashie', '~> 5.0.0'
@@ -176,7 +176,7 @@ gem 'typhoeus', '~> 1.4.0' # Used with Elasticsearch to support http keep-alive 
 gem 'html-pipeline', '~> 2.14.3'
 gem 'deckar01-task_list', '2.3.2'
 gem 'gitlab-markup', '~> 1.8.0', require: 'github/markup'
-gem 'commonmarker', '~> 0.23.6'
+gem 'commonmarker', '~> 0.23.10'
 gem 'kramdown', '~> 2.3.1'
 gem 'RedCloth', '~> 4.3.2'
 gem 'rdoc', '~> 6.3.2'
@@ -333,7 +333,7 @@ gem 'pg_query', '~> 2.2'
 
 gem 'premailer-rails', '~> 1.10.3'
 
-gem 'gitlab-labkit', '~> 0.29.0'
+gem 'gitlab-labkit', '~> 0.30.0'
 gem 'thrift', '>= 0.16.0'
 
 # I18n
@@ -493,15 +493,15 @@ gem 'net-ntp'
 gem 'ssh_data', '~> 1.3'
 
 # Spamcheck GRPC protocol definitions
-gem 'spamcheck', '~> 1.0.0'
+gem 'spamcheck', '~> 1.1.2'
 
 # Gitaly GRPC protocol definitions
-gem 'gitaly', '~> 15.5.2'
+gem 'gitaly', '~> 16.1.0'
 
 # KAS GRPC protocol definitions
-gem 'kas-grpc', '~> 0.0.2'
+gem 'kas-grpc', '~> 0.0.3'
 
-gem 'grpc', '~> 1.42.0'
+gem 'grpc', '~> 1.53.2'
 
 gem 'google-protobuf', '~> 3.21', '>= 3.21.12'
 
