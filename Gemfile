@@ -333,7 +333,7 @@ gem 'pg_query', '~> 2.2'
 
 gem 'premailer-rails', '~> 1.10.3'
 
-gem 'gitlab-labkit', '~> 0.29.0'
+gem 'gitlab-labkit', '~> 0.30.0'
 gem 'thrift', '>= 0.16.0'
 
 # I18n
@@ -493,15 +493,15 @@ gem 'net-ntp'
 gem 'ssh_data', '~> 1.3'
 
 # Spamcheck GRPC protocol definitions
-gem 'spamcheck', '~> 1.0.0'
+gem 'spamcheck', '~> 1.1.2'
 
 # Gitaly GRPC protocol definitions
-gem 'gitaly', '~> 15.5.2'
+gem 'gitaly', '~> 16.1.0'
 
 # KAS GRPC protocol definitions
-gem 'kas-grpc', '~> 0.0.2'
+gem 'kas-grpc', '~> 0.0.3'
 
-gem 'grpc', '~> 1.42.0'
+gem 'grpc', '~> 1.53.2'
 
 gem 'google-protobuf', '~> 3.21', '>= 3.21.12'
 
