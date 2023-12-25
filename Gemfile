@@ -173,7 +173,7 @@ gem 'faraday_middleware-aws-sigv4', '~>0.3.0'
 gem 'typhoeus', '~> 1.4.0' # Used with Elasticsearch to support http keep-alive connections
 
 # Markdown and HTML processing
-gem 'html-pipeline', '~> 2.14.3'
+gem 'html-pipeline', '~> 3.0.0'
 gem 'deckar01-task_list', '2.3.2'
 gem 'gitlab-markup', '~> 1.8.0', require: 'github/markup'
 gem 'commonmarker', '~> 0.23.6'
