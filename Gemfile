@@ -31,7 +31,7 @@ gem 'responders', '~> 3.0'
 
 gem 'sprockets', '~> 3.7.0'
 
-gem 'view_component', '~> 2.74.1'
+gem 'view_component', '~> 3.9.0'
 
 # Default values for AR models
 gem 'default_value_for', '~> 3.4.0'
@@ -363,7 +363,7 @@ group :development do
   gem 'solargraph', '~> 0.47.2', require: false
 
   gem 'letter_opener_web', '~> 2.0.0'
-  gem 'lookbook', '~> 1.2', '>= 1.2.1'
+  gem 'lookbook', '~> 1.5', '>= 1.5.0'
 
   # Better errors handler
   gem 'better_errors', '~> 2.9.1'
